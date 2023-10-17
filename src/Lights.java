@@ -8,12 +8,5 @@ public class Lights implements Device {
         System.out.println("The lights are turned off.");
     }
 
-    public void up() {
-        System.out.println("The lights are shining brighter.");
-    }
-
-    public void down() {
-        System.out.println("The lights are dimmer.");
-    }
 
 }

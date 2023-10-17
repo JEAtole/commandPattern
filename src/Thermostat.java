@@ -8,11 +8,11 @@ public class Thermostat implements Device {
         System.out.println("The thermostat is turned off.");
     }
 
-    public void up() {
+    public void increaseTemperature() {
         System.out.println("The temperature is getting hotter.");
     }
 
-    public void down() {
+    public void decreaseTemperature() {
         System.out.println("The temperature is getting colder.");
     }
 

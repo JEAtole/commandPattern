@@ -8,11 +8,11 @@ public class MusicPlayer implements Device {
         System.out.println("The music player is turned off.");
     }
 
-    public void up() {
+    public void increaseVolume() {
         System.out.println("The music is getting louder.");
     }
 
-    public void down() {
+    public void decreaseVolume() {
         System.out.println("The music is getting quieter.");
     }
 
